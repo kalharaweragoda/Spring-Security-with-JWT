@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/auth-guard?createDatabaseIfNotExist=true
+    username: root
+    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  secret: JNavbvBhwGMkRYSMrAoIgeTcazFwyVSZDaQJNavbvBhwGMkRYSMrAoIgeTcazFwyVSZDaQJNavbvBhwGMkRYSMrAoIgeTcazFwyVSZDaQ
+  expiration: 3600000
