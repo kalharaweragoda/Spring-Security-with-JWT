@@ -4,6 +4,7 @@ import edu.icet.dto.JwtResponse;
 import edu.icet.dto.LoginRequest;
 import edu.icet.dto.SignupRequest;
 import edu.icet.entity.UserEntity;
+import edu.icet.repository.UserRepository;
 import edu.icet.util.JwtUtility;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
